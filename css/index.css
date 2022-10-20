@@ -1,26 +1,31 @@
 .inline-block {
-    display: inline-block;
     vertical-align: top;
     color: #363636;
-    background-color: #65c9d7;
     font-family: Arial, Helvetica, sans-serif;
 }
 .logo {
-    width: 10%;
+    width: 1%;
     padding: 1%;
     text-align: center;
+    position: fixed;
 }
 nav {
     width: 73%;
     padding: 1%;
-}
-nav {
-    width: 50%;
     margin-left: auto;
 }
-ul {
+nav ul {
+    list-style: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #61636A;
     width: 50%;
-    margin-left: auto;
+    margin-right: auto;
+
+}
+li {
+    display: inline-block;
+    padding: 10px;
 }
 .heroImg {
     height: 600px;
@@ -30,6 +35,8 @@ ul {
 .content {
     width: 500px;
     margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
 }
 footer {
     background-color: #61636a;
@@ -39,4 +46,8 @@ footer ul {
     vertical-align: top;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+}
+footer li {
+    padding: 25px;
+    font-size: 24px;
 }
